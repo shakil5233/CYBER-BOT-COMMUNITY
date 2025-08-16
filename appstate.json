@@ -1,47 +1,12 @@
-name: Node.js CI
-
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
-    steps:
-    # Step to check out the repository code
-    - uses: actions/checkout@v2
-
-    # Step to set up the specified Node.js version
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    # Step to install dependencies
-    - name: Install dependencies
-      run: npm install
-
-    # Step to run the bot with the correct port
-    - name: Start the bot
-      env:
-        PORT: 8080
-      run: npm start[
+[
     {
         "key": "datr",
         "value": "oiacaNuk-1zas7TkUMoOcbJj",
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
+        "creation": "2025-08-16T07:28:23.559Z",
+        "lastAccessed": "2025-08-16T07:28:23.566Z"
     },
     {
         "key": "sb",
@@ -49,8 +14,8 @@ jobs:
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
+        "creation": "2025-08-16T07:28:23.566Z",
+        "lastAccessed": "2025-08-16T07:28:23.566Z"
     },
     {
         "key": "locale",
@@ -58,8 +23,8 @@ jobs:
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
+        "creation": "2025-08-16T07:28:23.566Z",
+        "lastAccessed": "2025-08-16T07:28:23.566Z"
     },
     {
         "key": "vpd",
@@ -67,8 +32,8 @@ jobs:
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
+        "creation": "2025-08-16T07:28:23.566Z",
+        "lastAccessed": "2025-08-16T07:28:23.566Z"
     },
     {
         "key": "ps_l",
@@ -76,8 +41,8 @@ jobs:
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
+        "creation": "2025-08-16T07:28:23.566Z",
+        "lastAccessed": "2025-08-16T07:28:23.566Z"
     },
     {
         "key": "ps_n",
@@ -85,8 +50,8 @@ jobs:
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
+        "creation": "2025-08-16T07:28:23.566Z",
+        "lastAccessed": "2025-08-16T07:28:23.566Z"
     },
     {
         "key": "pas",
@@ -94,8 +59,8 @@ jobs:
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
+        "creation": "2025-08-16T07:28:23.566Z",
+        "lastAccessed": "2025-08-16T07:28:23.566Z"
     },
     {
         "key": "wl_cbv",
@@ -103,26 +68,8 @@ jobs:
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
-    },
-    {
-        "key": "m_pixel_ratio",
-        "value": "1.5303868055343628",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
-    },
-    {
-        "key": "wd",
-        "value": "400x889",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
+        "creation": "2025-08-16T07:28:23.566Z",
+        "lastAccessed": "2025-08-16T07:28:23.566Z"
     },
     {
         "key": "c_user",
@@ -130,25 +77,25 @@ jobs:
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
+        "creation": "2025-08-16T07:28:23.566Z",
+        "lastAccessed": "2025-08-16T07:28:23.566Z"
     },
     {
         "key": "xs",
-        "value": "25%3A5IzlwOa918Vc1w%3A2%3A1755141681%3A-1%3A-1",
+        "value": "24%3AKSiiSlzWk-O_DA%3A2%3A1755160313%3A-1%3A-1",
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
+        "creation": "2025-08-16T07:28:23.566Z",
+        "lastAccessed": "2025-08-16T07:28:23.566Z"
     },
     {
         "key": "fr",
-        "value": "0ifFk4CHLiLxjHzCd.AWdBO_Ltp29DRC8UAAYZusFd7eNjHWm5DjdUCi2K3WfeuKpk-1c.BonCai..AAA.0.0.BonVYy.AWcVdBBa6tlMcFbKm4lWHIyEIMw",
+        "value": "0ifFk4CHLiLxjHzCd.AWfO7qdYfhP0i9UjcKocVvyBzgnEFuSiRJ7e5utVCOfDKG8dGSc.BonCai..AAA.0.0.BonZ77.AWcwBe9IS9wonzz6ofAExZ-fTjM",
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2025-08-14T03:21:28.027Z",
-        "lastAccessed": "2025-08-14T03:21:28.027Z"
+        "creation": "2025-08-16T07:28:23.566Z",
+        "lastAccessed": "2025-08-16T07:28:23.566Z"
     }
 ]
